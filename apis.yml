@@ -1,7 +1,17 @@
 aid: peony
 name: Peony
-description: Peony is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Peony is a virtual data room (VDR) platform for secure document sharing,
+  page-level analytics, due diligence workflows, AI-powered Q&A, and legally
+  binding e-signatures. Founded in 2021 by Deqian Jia and headquartered in San
+  Francisco with a London office, Peony positions itself as a design-led,
+  premium alternative to legacy VDR vendors such as DocSend, Datasite, Firmex,
+  Digify, and Ideals. The platform offers NDA-gated access, dynamic
+  viewer-identity watermarks, screenshot protection, granular permissions,
+  custom-domain delivery, AI document extraction and redaction, and detailed
+  audit logs. It is SOC 2 Type II certified and GDPR, CCPA, and HIPAA compliant,
+  serving 5,900+ teams including YC startups, M&A advisors, and funds managing
+  over $19.6B in assets.
 url: https://raw.githubusercontent.com/api-evangelist/peony/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://www.peony.ink/og-image.jpg
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Virtual Data Room
+- Document Sharing
+- Due Diligence
+- Mergers and Acquisitions
+- Document Security
+- E-Signatures
+- Data Room
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://peony.ink
+  url: https://www.peony.ink
+- type: Pricing
+  url: https://www.peony.ink/pricing
+- type: SignUp
+  url: https://app.peony.ink/signup
+- type: Documentation
+  url: https://www.peony.ink/docs
+- type: Blog
+  url: https://www.peony.ink/blog
+- type: PrivacyPolicy
+  url: https://www.peony.ink/privacy
+- type: TermsOfService
+  url: https://www.peony.ink/terms
+- type: Compliance
+  url: https://www.peony.ink/features/security
+- type: TrustCenter
+  url: security/peony-trust-center.yml
+- type: DomainSecurity
+  url: security/peony-domain-security.yml
+- type: LLMsTxt
+  url: llms/peony-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
