@@ -1,0 +1,31 @@
+# Front Door AI Index — peony — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: peony
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.peony.ink
+  final_host: www.peony.ink
+  ownership: own
+  owner: peony
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 35
+  host_score: 35
+  density: 8.35
+  words: 4191
+  tiers:
+    agentic: 1
+    core: 29
+    model: 5
+  ambiguous: 6
+  top_terms:
+    AI: 29
+    Claude: 3
+    smart: 3
+    GPT: 2
+    intelligence: 2
+    MCP: 1
+    agent: 1
